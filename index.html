@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>Star Wars RPG</title>
+
+		<!-- Reset Styles -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!-- Bootstrap minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- My Styles -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+
+	<!-- nav -->
+	<nav class="navbar navbar-default">STAR WARS RPG</nav>
+
+	<!-- gamebSection-->
+	<div class="container-fluid">
+		<div id="gameSection">
+			<div id="character-1" class="characters">
+				<h2><span class="name">Padme</span> </h2>
+  				<img src="./assets/images/JediPadme.jpg" alt="Padme" />
+  				<h2><span class="health-points">200</span></h2>
+				
+			</div>
+			<div id="character-2" class="characters">
+				<h2><span class="name">Vader</span></h2> 
+  				<img src="./assets/images/vader1.jpg" alt="Vader" />
+  				<h2><span class="health-points">200</span></h2>
+				
+			</div>
+			<div id="character-3" class="characters">
+				<h2><span class="name">Ghost Obi-Wan</span></h2>
+
+  				<img src="./assets/images/obi1.jpg" alt="Ghost Obi-wan" />
+  				 <h2><span class="health-points">200</span></h2>
+			</div>
+			<div id="character-4" class="characters">
+				<h2><span class="name">Yoda</span></h2>
+
+  				<img src="./assets/images/Yoda.jpg" alt="Yoda Jedai Master" />
+  				<h2> <span class="health-points">200</span></h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- text and buttons -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-9">
+				<div id="text-container">
+					<p id="text"></p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div id="buttons-container">
+					<ul class="buttons-ul">
+						<li><button type="button" class="btn btn-custom" id="attack" value="attack">Attack</button></li>
+						<li><button type="button" class="btn btn-custom" id="restart" value="restart">Restart</button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
